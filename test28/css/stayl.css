@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background: rgb(67, 112, 133);
+}
+div{
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+#container{
+    display: grid;
+    width: 320px;
+    margin: 15px auto;
+    grid-template-rows:70px 1fr 1fr 1fr 1fr ;
+    grid-template-columns:repeat(4, 1fr);
+}
+ .btn {
+   border-radius: 50%;
+   margin: 5px;
+   background: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 36px;
+   line-height: 69px;
+   font-weight: 700;
+   cursor: pointer;
+} 
+p{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+    font-size: 36px;
+    font-weight: 700;
+    background: #fff;
+    padding: 10px 10px;
+    margin: 7px 16px;
+    border-radius: 5px;
+}
+
+.col1{
+    background-color:rgb(157, 175, 207);
+}
+.col2{
+    background-color: rgb(131, 138, 150) ;
+}
+.razm1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 85%;
+}
+.razm2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    border-radius: 85%;
+}
